@@ -25,15 +25,6 @@ var _ = _ || {};
             this.parent.options = lib.extend(this.parent.options, options);
         }
     };
-
-    /**
-     * 
-     * @param {Object} options
-     */
-    obj.Base.prototype.init = function() {
-        console.log('pra-init');
-        return this;
-    };
     
     /**
      * Adds event listener to Object
